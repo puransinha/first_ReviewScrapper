@@ -16,7 +16,7 @@ RUN cd /usr/src/app
 EXPOSE 5000
 
 # default command to execute
-CMD python app.py runserver 0:5000
+CMD python3 app.py runserver 0:5000
 
 
 
