@@ -1,3 +1,6 @@
+#**** using with Django api***
+
+
 FROM python:3.6.7
 ADD . /usr/src/app
 #set directoty where CMD will execute
