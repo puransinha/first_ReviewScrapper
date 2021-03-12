@@ -13,10 +13,10 @@ RUN pip install --no-cache-dir -r requirements.txt
 RUN cd /usr/src/app
 
 # Expose ports
-EXPOSE 8000
+EXPOSE 5000
 
 # default command to execute
-CMD python app.py 0:8000
+CMD python app.py 0:5000
 
 
 
